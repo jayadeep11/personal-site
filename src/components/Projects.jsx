@@ -27,7 +27,7 @@ const Pricing = () => {
               </a>
             </div>
           </div>
-        ))}About
+        ))}
       </div>
     </div>
   );

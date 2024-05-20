@@ -6,7 +6,7 @@ export const navItems = [
   { label: "About", href: "#" },
   { label: "Workflow", href: "#Arch" },
   { label: "Projects", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "Contact", href: "#Contact" },
 ];
 
 
@@ -53,3 +53,19 @@ export const Projects = [
   },
 ];
 
+
+
+export const socials = [
+  { label: "Instagram", href: "#" },
+  { label: "Twitter", href: "#Arch" },
+  { label: "LinkedIn", href: "#" },
+  { label: "Github", href: "#" },
+];
+
+
+export const details = [
+  { label: "jayadeep.bellamkonda@gamil.com", href: "#" },
+  { label: "+91 9705352421", href: "#Arch" },
+  { label: "mopidevi, Colony", href: "#" },
+  { label: "krishna, 521125", href: "#" },
+];

@@ -15,6 +15,7 @@
 
 .name,
 .im,
+.con,
 .pro,
 .skills {
   font-family: 'CustomFont', sans-serif;
@@ -23,6 +24,14 @@
 .arch {
   font-family: 'CustomFont', sans-serif;
   font-weight: 100;
+}
+
+.hel {
+  background-color: #121212;
+}
+
+.hello {
+  background-color: #FF4800;
 }
 
 

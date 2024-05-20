@@ -1,9 +1,43 @@
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
+import { useState, useEffect } from 'react';
+
 
 const Navbar = () => {
+
+
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (typeof window !== 'undefined') {
+      if (window.scrollY > lastScrollY) {
+        // if scrolling down, hide the navbar
+        setShow(false);
+      } else {
+        // if scrolling up, show the navbar
+        setShow(true);
+      }
+
+      // remember the current page location for the next move
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', controlNavbar);
+
+      // cleanup function
+      return () => {
+        window.removeEventListener('scroll', controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
+
+
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -11,7 +45,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className={`sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 transition-all duration-500  ${show ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
