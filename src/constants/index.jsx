@@ -56,16 +56,15 @@ export const Projects = [
 
 
 export const socials = [
-  { label: "Instagram", href: "#" },
+  { label: "Instagram", href: "https://www.instagram.com/jayadeep__11/" },
   { label: "Twitter", href: "#Arch" },
-  { label: "LinkedIn", href: "#" },
-  { label: "Github", href: "#" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/jayadeep11/" },
+  { label: "Github", href: "https://github.com/jayaadeep11/" },
 ];
 
 
 export const details = [
-  { label: "jayadeep.bellamkonda@gamil.com", href: "#" },
   { label: "+91 9705352421", href: "#Arch" },
-  { label: "mopidevi, Colony", href: "#" },
-  { label: "krishna, 521125", href: "#" },
-];
+  { label: "jayadeep.bellamkonda@gamil.com", href: "#" },
+]
+

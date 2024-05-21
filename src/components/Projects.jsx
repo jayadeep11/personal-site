@@ -1,7 +1,7 @@
 import { Projects } from "../constants";
 
 
-const Pricing = () => {
+const ProjectsP = () => {
   return (
     <div className="mt-20">
       <h2 className="pro text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
@@ -33,4 +33,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default ProjectsP;

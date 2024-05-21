@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects";
+import ProjectsP from "./components/Projects";
 import Skills from "./components/Skills";
 import { socials } from "./constants";
 import { details } from "./constants";
@@ -17,7 +17,7 @@ const App = () => {
         <Hero />
         <About />
         <Workflow />
-        <Projects />
+        <ProjectsP />
         <Skills />
       </div>
       <Footer />
