@@ -7,7 +7,7 @@ const Workflow = () => {
       <div className="flex flex-col items-center text-5xl sm:text-6xl ">
         <h2 className=" text-center mt-6  tracking-wide">
           I am using{" "}<br />
-          <span className="arch bg-gradient-to-r from-orange-500 to-orange-800 text-[70px]  lg:text-[150px] text-transparent bg-clip-text">
+          <span className="arch bg-gradient-to-r from-orange-500 to-orange-800 text-7xl  lg:text-9xl text-transparent bg-clip-text">
             Arch Linux
           </span>
         </h2>

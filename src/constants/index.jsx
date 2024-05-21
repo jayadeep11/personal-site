@@ -2,7 +2,7 @@ import { SiNeovim } from "react-icons/si";
 import { VscTerminal, VscTerminalTmux } from "react-icons/vsc";
 import { SiArchlinux } from "react-icons/si";
 import pi1 from "../assets/projects/personal-site.png"
-import pi2 from "../assets/projects/personal-site.png"
+import pi2 from "../assets/projects/GUFinder.png"
 import pi3 from "../assets/projects/personal-site.png"
 
 
@@ -12,8 +12,6 @@ export const navItems = [
   { label: "Projects", href: "#" },
   { label: "Contact", href: "#Contact" },
 ];
-
-
 
 export const Programs = [
   {
