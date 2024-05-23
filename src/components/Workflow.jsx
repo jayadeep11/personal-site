@@ -4,10 +4,10 @@ import { Programs, } from "../constants";
 const Workflow = () => {
   return (
     <div id="Arch" className="mt-3 lg:m-10">
-      <div className="flex flex-col items-center text-5xl sm:text-6xl ">
-        <h2 className=" text-center mt-6  tracking-wide">
+      <div className="flex flex-col items-center text-3xl sm:text-6xl ">
+        <h2 className="arch text-center mt-6  tracking-wide">
           I am using{" "}<br />
-          <span className="arch bg-gradient-to-r from-orange-500 to-orange-800 text-7xl  lg:text-9xl text-transparent bg-clip-text">
+          <span className="arch bg-gradient-to-r from-orange-500 to-orange-800 text-5xl  lg:text-9xl text-transparent bg-clip-text">
             Arch Linux
           </span>
         </h2>
@@ -27,7 +27,7 @@ const Workflow = () => {
                 {project.icon}
               </div>
               <div>
-                <h5 className="mt-1 mb-2 text-xl">{project.name}</h5>
+                <h5 className="arch mt-1 mb-2 text-xl">{project.name}</h5>
                 <p className="text-md text-neutral-500">{project.description}</p>
               </div>
             </div>

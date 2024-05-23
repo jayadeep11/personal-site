@@ -81,7 +81,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-white md:text-6xl"
+          className="arch relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-white md:text-6xl"
         >
           {heading.split("").map((l, i) => (
             <motion.span
