@@ -9,9 +9,9 @@ const Footer = () => {
 
 
 
-      <div className="flex lg:flex-row md:flex-row flex-col items-center px-20 lg:px-24 my-5 flex-grow   ">
+      <div className="flex lg:flex-row md:flex-row flex-col items-center px-10 lg:px-24 my-5 flex-grow   ">
         <div className="flex-grow text-black flex justify-center items-center">
-          <a href="mailto:jayadeep.bellamkonda@gmail.com" className="group lg:text-9xl md:text-8xl text-3xl text-center lg:text-start font-medium">
+          <a href="mailto:jayadeep.bellamkonda@gmail.com" className="group lg:text-9xl md:text-8xl text-5xl text-center lg:text-start font-medium">
             <span className="">Let's Work</span> Together<span><PiArrowSquareIn className="group-hover:scale-75 transition-all  inline text-white" /></span>
           </a>
         </div>
