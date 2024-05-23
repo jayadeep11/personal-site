@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="hel w-full mx-auto pt-20  relative z-50 ">
+      <div className="hel w-full mx-auto pt-20 px-9 relative z-50 ">
         <Hero />
         <About />
         <Workflow />

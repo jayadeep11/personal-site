@@ -11,13 +11,13 @@ export const HoverImageLinks = () => {
       <div className="mx-auto max-w-5xl">
         <Link
           heading="Portfolio"
-          subheading="This is my personal-site"
+          subheading="personal-site"
           imgSrc={image1}
           href="https://github.com/jayaadeep11/personal-site"
         />
         <Link
           heading="GFinder"
-          subheading="We work with great people"
+          subheading="Web Application"
           imgSrc={image2}
           href="https://github.com/jayaadeep11/GFinder"
         />

@@ -1,5 +1,4 @@
 import { HoverImageLinks } from "./HI"
-import logo from "./../assets/foot.png"
 
 const Skills = () => {
   return (
