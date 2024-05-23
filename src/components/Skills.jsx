@@ -1,12 +1,12 @@
+import { HoverImageLinks } from "./HI"
+import logo from "./../assets/foot.png"
 
 const Skills = () => {
   return (
-    <div className="hidden mt-20 tracking-wide">
-      <h2 className="skills text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
-        Skills
-      </h2>
+    <div className=" mt-20 lg:text-6xl ">
+      <h1 className="sii font-bold text-center block">Projects</h1>
+      <HoverImageLinks />
     </div>
   );
 };
-
 export default Skills;

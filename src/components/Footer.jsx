@@ -1,12 +1,12 @@
 import { socials } from "../constants"
 import { PiArrowSquareIn } from "react-icons/pi";
+import logo from "./../assets/foot.png";
 
 
 const Footer = () => {
   return (
 
     <div className=" Contact h-[80vh] flex flex-col justify-between  hello sticky bottom-0  z-0 ">
-
 
 
       <div className="flex lg:flex-row md:flex-row flex-col items-center px-10 lg:px-24 my-5 flex-grow   ">
