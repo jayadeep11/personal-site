@@ -5,7 +5,7 @@ import { useState } from "react";
 const HeroSection = () => {
   const [hidden, setHidden] = useState(true);
   return (
-    <div className="he flex flex-col items-center mt-20 lg:mt-40">
+    <div className="he flex flex-col items-center mt-20 lg:mt-32">
       <h1 className="im text-6xl sm:text-6xl lg:text-[150px] font-bold  text-center tracking-wide">
         I'm
         <span className="name font-bold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
