@@ -2,7 +2,7 @@
 
 const Projects = () => {
   return (
-    Projects < div className = "mt-20" >
+    < div className="mt-20" >
 
     </div >
   );
