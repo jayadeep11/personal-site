@@ -5,7 +5,7 @@ import logo from "./../assets/logo.png";
 
 const Navbar = (proops) => {
   return (
-    <nav className="flex p-6 lg:p-10 items-center" >
+    <nav className="flex p-6 lg:p-10 hel items-center" >
       <img src={logo} className="w-10 h-10" />
       <p className="flex-grow font-bold">Jayadeep</p>
       <FaBars onClick={proops.openHeader} className="w-5 h-5" />
