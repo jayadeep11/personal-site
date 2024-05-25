@@ -8,18 +8,18 @@ const Footer = () => {
     <div className=" Contact h-[80vh] flex flex-col justify-between  hello sticky bottom-0  z-0 ">
 
 
-      <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-5 items-center lg:px-24 mt-32  lg:mt-52 flex-grow   ">
-        <div className="flex-grow text-black flex justify-center items-center ">
-          <a href="mailto:jayadeep.bellamkonda@gmail.com" className="group a lg:text-[10rem]  md:text-8xl text-6xl text-center lg:text-start font-medium">
+      <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-5 items-center md:px-24 lg:px-24 mt-32  lg:mt-52 flex-grow   ">
+        <div className="flex-grow text-black flex justify-center items-center sm:px-10">
+          <a href="mailto:jayadeep.bellamkonda@gmail.com" className="group a lg:text-9xl sm:text-7xl  md:text-5xl text-6xl text-center lg:text-start font-medium">
             <span className="">Let's Work</span> Together<span><PiArrowSquareIn className="group-hover:scale-75  transition-all  inline text-white" /></span>
           </a>
         </div>
 
-        <div className="">
+        <div className="text-3xl">
           <ul className="text-black flex items-center flex-col gap-5 flex-grow  ">
             {
               socials.map((item, index) => (
-                <li key={index} ><a href={item.href} className="text-4xl trans hover:text-white">{item.label}</a></li>
+                <li key={index} ><a href={item.href} className=" trans hover:text-white">{item.label}</a></li>
               ))
             }
           </ul>
