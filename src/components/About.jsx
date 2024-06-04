@@ -1,4 +1,4 @@
-import logo from "./../assets/prop.png";
+import logo from "./../assets/prop.jpg";
 
 
 const About = () => {
@@ -14,8 +14,8 @@ const About = () => {
       </h2>
 
       <div className="flex flex-col lg:flex-row md:flex-row items-center lg:justify-around   md:mx-0  mb-10 sm:flex-row ">
-        <div className=" lg:basis-[27rem]  mb-12 ">
-          <img src={logo} className="w-full  " />
+        <div className=" lg:basis-[27rem] p-2 max-[600px]:p-6 max-[600px]:mb-5">
+          <img src={logo} className="w-full " style={{ clipPath: "circle(50%)" }} />
         </div>
         <div className=" flex lg:basis-[40rem]  flex-col gap-10 text-3xl sm:text-xl lg:text-5xl text-center  lg:text-start   lg:w-1/2">
           <p className="arch text-neutral-500">
