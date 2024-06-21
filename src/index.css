@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'CustomFont';
+  font-family: 'Acorn';
   src: url('./fonts/Acorn-SemiBold.ttf') format('truetype'),
     url('./fonts/Acorn-Medium.ttf') format('truetype'),
     url('./fonts/Acorn-Bold.ttf') format('truetype'),
@@ -23,16 +23,16 @@
 .web,
 .sii,
 .skills {
-  font-family: 'CustomFont', sans-serif;
+  font-family: 'Acorn', sans-serif;
 }
 
 
-.arch {
-  font-family: 'CustomFont', sans-serif;
-  font-weight: 100;
+
+.Acorn {
+  font-family: 'Acorn', sans-serif;
 }
 
-.hel {
+.blackk {
   background-color: #121212;
 }
 

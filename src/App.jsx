@@ -6,12 +6,13 @@ import Footer from "./components/Footer";
 import ProjectsP from "./components/Projects";
 import Skills from "./components/Skills";
 import "./index.css"
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <div className="hel w-full mx-auto pt-20 px-9 relative z-50 ">
+      <div className="blackk w-full mx-auto px-9 relative z-50 ">
         <Hero />
         <About />
         <Workflow />

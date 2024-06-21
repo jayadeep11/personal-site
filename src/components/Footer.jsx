@@ -5,7 +5,7 @@ import { PiArrowSquareIn } from "react-icons/pi";
 const Footer = () => {
   return (
 
-    <div className=" Contact h-[80vh] flex flex-col justify-between  hello sticky bottom-0  z-0 ">
+    <div className="h-[70vh] flex flex-col justify-between  hello sticky bottom-0  z-0 ">
 
 
       <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-5 items-center md:px-24 lg:px-24 mt-32  lg:mt-52 flex-grow   ">
