@@ -5,10 +5,10 @@ import { useState } from "react";
 const HeroSection = () => {
   const [hidden, setHidden] = useState(true);
   return (
-    <div className="he flex flex-col items-center h-[87vh] justify-end  ">
-      <h1 className="im text-6xl sm:text-6xl lg:text-[10rem] font-bold  text-center tracking-wide">
+    <div className="he flex flex-col items-center mt-20 lg:mt-32">
+      <h1 className="im text-6xl sm:text-6xl lg:text-[150px] font-bold  text-center tracking-wide">
         I'm
-        <span className="Acorn font-bold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+        <span className="name font-bold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
           {" "}
           Jayadeep
         </span>
@@ -16,7 +16,7 @@ const HeroSection = () => {
       <p
         onMouseEnter={() => setHidden(false)}
         onMouseLeave={() => setHidden(true)}
-        className="Acorn mt-5 text-lg text-center text-neutral-500 max-w-4xl hover:text-white hover:before:nothing  transition-all duration-300">
+        className="web mt-10 text-lg text-center text-neutral-500 max-w-4xl hover:text-white hover:before:nothing  transition-all duration-300">
         {hidden ? <span>Web developer</span> : <span>Nothing Over here</span>}
       </p>
       <div className="flex  justify-center my-10 flex-wrap gap-5  mt-40 lg:mt-64">
