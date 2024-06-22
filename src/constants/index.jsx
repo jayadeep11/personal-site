@@ -7,9 +7,9 @@ import pi3 from "../assets/projects/personal-site.png"
 
 
 export const navItems = [
-  { label: "About", href: "#" },
   { label: "Workflow", href: "#Arch" },
-  { label: "Projects", href: "#" },
+  { label: "About", href: "#" },
+  { label: "Notes", href: "#Notes" },
   { label: "Contact", href: "#Contact" },
 ];
 

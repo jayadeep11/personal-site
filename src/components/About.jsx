@@ -3,10 +3,9 @@ import logo from "./../assets/prop.jpg";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-20 border-b border-neutral-800 min-h-[600px]">
+    <div className="flex flex-col justify-center items-center mt-20 border-b border-neutral-800 lg:min-h-[1000px]">
 
-      <h1 className="sii font-bold text-5xl lg:text-6xl text-center block mb-32">About Me</h1>
-      <h2 className="text-center text-5xl lg:text-9xl font-bold mb-16  arch">
+      <h2 className="text-center text-5xl  lg:text-9xl font-bold md:mb-16 lg:mb-16  arch">
         Jayadeep{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
           Bellamkonda

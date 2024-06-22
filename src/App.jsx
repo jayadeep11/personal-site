@@ -10,8 +10,8 @@ import "./index.css"
 const App = () => {
   return (
     <>
-      <Navbar />
-      <div className="hel w-full mx-auto pt-20 px-9 relative z-50 ">
+      <div className="hel w-full mx-auto  px-9 relative z-50 ">
+        <Navbar />
         <Hero />
         <About />
         <Workflow />

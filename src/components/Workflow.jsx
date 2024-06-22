@@ -16,7 +16,7 @@ const Workflow = () => {
           My cool desktop!! Which is actually just the most efficient way I’ve found to do my work.
         </p>
       </div>
-      <div className="archc flex flex-wrap justify-center mt-10">
+      <div className="archc flex flex-wrap justify-center  mt-10">
         <div className="p-2 w-full lg:w-1/2 flex items-center justify-center  ">
           <img src={codeImg} alt="Coding" />
         </div>
