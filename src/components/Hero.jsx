@@ -1,11 +1,14 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
+import logo from "../../src/assets/logo.png"
+
 import { useState } from "react";
 
 const HeroSection = () => {
   const [hidden, setHidden] = useState(true);
   return (
-    <div className="he flex flex-col items-center mt-60 md:mt-20 lg:mt-32">
+    <div className="he flex flex-col items-center max-[1024px]:mt-60 lg:min-h-[1000px] justify-center">
+      <img src={logo} className="w-12 h-12 max-[770px]:flex hidden absolute top-10" alt="logo" />
       <h1 className="im text-6xl sm:text-6xl lg:text-[10rem] font-bold  text-center tracking-wide">
         I'm
         <span className=" name font-bold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
