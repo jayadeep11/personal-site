@@ -1,6 +1,6 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-import logo from "../../src/assets/logo.png"
+import logo from "../../src/assets/jd@logo.png"
 
 import { useState } from "react";
 
