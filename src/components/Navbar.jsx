@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/jd@logo.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
