@@ -1,35 +1,47 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-
-import logo from "../../src/assets/jd@logo.png"
-
+import logo from "../../src/assets/jd@logo.png";
 import { useState } from "react";
 
 const HeroSection = () => {
   const [hidden, setHidden] = useState(true);
   return (
-    <div className="he flex flex-col items-center max-[1024px]:mt-60 lg:min-h-[1000px] justify-center">
-      <img src={logo} className="w-12 h-12 max-[770px]:flex hidden absolute top-10" alt="logo" />
-      <h1 className="im text-6xl sm:text-6xl lg:text-[10rem] font-bold  text-center tracking-wide">
+    <div className="relative flex flex-col items-center justify-center min-h-screen px-6 lg:px-12">
+      <img
+        src={logo}
+        className="w-16 h-16 lg:w-20 lg:h-20 hidden max-[770px]:block absolute top-6 lg:top-10"
+        alt="logo"
+      />
+      <h1 className="text-5xl sm:text-6xl arch lg:text-[8rem] font-extrabold text-center tracking-wide mb-4 lg:mb-6">
         I'm
-        <span className=" name font-bold bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
-          {" "}
-          Jayadeep
+        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+          {" "} Jayadeep
         </span>
       </h1>
       <p
         onMouseEnter={() => setHidden(false)}
         onMouseLeave={() => setHidden(true)}
-        className="web mt-5 text-lg text-center text-neutral-500 max-w-4xl hover:text-white hover:before:nothing  transition-all duration-300">
-        {hidden ? <span>Web developer</span> : <span>Nothing Over here</span>}
+        className="mt-4 lg:mt-8 text-lg lg:text-xl text-center text-neutral-500 hover:text-white transition-all duration-300 max-w-4xl">
+        {hidden ? <span>Web Developer</span> : <span>Nothing Over Here</span>}
       </p>
-      <div className="flex  justify-center my-10 flex-wrap gap-5  mt-40 lg:mt-64">
-        <a href="https://github.com/jayadeep11/" target="_blank" className="text-white transition-all hover:text-orange-500"><FaGithub className="w-8  h-8" /></a>
-        <a href="https://www.linkedin.com/in/jayadeep11/" target="_blank" className="text-white transition-all hover:text-orange-500"><FaLinkedin className="w-8  h-8" /></a>
-        <a href="https://www.instagram.com/jayadeep__11/" target="_blank" className="text-white transition-all hover:text-orange-500"><FaInstagram className="w-8  h-8" /></a>
-        <a href="https://www.instagram.com/jayadeep__11/" target="_blank" className="text-white transition-all hover:text-orange-500"><FaTwitter className="w-8  h-8" /></a>
+
+      {/* Icons at the bottom */}
+      <div className="absolute bottom-10 left-0 right-0 flex justify-center gap-8">
+        <a href="https://github.com/jayadeep11/" target="_blank" className="text-white transition-all hover:text-orange-500">
+          <FaGithub className="w-8 h-8 lg:w-10 lg:h-10" />
+        </a>
+        <a href="https://www.linkedin.com/in/jayadeep11/" target="_blank" className="text-white transition-all hover:text-orange-500">
+          <FaLinkedin className="w-8 h-8 lg:w-10 lg:h-10" />
+        </a>
+        <a href="https://www.instagram.com/jayadeep__11/" target="_blank" className="text-white transition-all hover:text-orange-500">
+          <FaInstagram className="w-8 h-8 lg:w-10 lg:h-10" />
+        </a>
+        <a href="https://www.twitter.com/" target="_blank" className="text-white transition-all hover:text-orange-500">
+          <FaTwitter className="w-8 h-8 lg:w-10 lg:h-10" />
+        </a>
       </div>
     </div>
   );
 };
 
 export default HeroSection;
+
