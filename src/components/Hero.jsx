@@ -6,11 +6,6 @@ const HeroSection = () => {
   const [hidden, setHidden] = useState(true);
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen px-6  lg:px-12">
-      <img
-        src={logo}
-        className="w-16 h-16 lg:w-20 lg:h-20 absolute top-6 lg:top-10"
-        alt="logo"
-      />
       <h1 className="text-5xl sm:text-6xl arch lg:text-[8rem] font-extrabold text-center tracking-wide mb-4 lg:mb-6">
         I'm
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
