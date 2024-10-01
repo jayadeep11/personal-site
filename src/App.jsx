@@ -3,8 +3,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
-import ProjectsP from "./components/Projects";
-import Skills from "./components/Skills";
 import "./index.css";
 
 const App = () => {

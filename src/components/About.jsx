@@ -1,8 +1,9 @@
+
 import logo from "./../assets/prop.jpg";
 
 const About = () => {
   return (
-    <div className="flex flex-col  justify-around items-center  border-b border-neutral-800 lg:min-h-[1000px] px-6">
+    <div className="flex flex-col  justify-around items-center  border-b border-neutral-800 ">
       <h2 className="text-center text-5xl lg:text-8xl font-bold mb-8  arch">
         Jayadeep{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">

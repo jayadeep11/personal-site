@@ -22,7 +22,7 @@ const Footer = () => {
           <ul className="flex items-center text-gray-500 flex-col gap-5 flex-grow  ">
             {socials.map((item, index) => (
               <li key={index}>
-                <a href={item.href} className=" trans hover:text-white">
+                <a href={item.href} className=" trans hover:text-orange-500">
                   {item.label}
                 </a>
               </li>

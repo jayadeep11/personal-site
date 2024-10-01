@@ -1,9 +1,6 @@
 import { SiNeovim } from "react-icons/si";
 import { VscTerminal, VscTerminalTmux } from "react-icons/vsc";
 import { SiArchlinux } from "react-icons/si";
-import pi1 from "../assets/projects/personal-site.png"
-import pi2 from "../assets/projects/GUFinder.png"
-import pi3 from "../assets/projects/personal-site.png"
 
 
 export const navItems = [
@@ -40,23 +37,6 @@ export const Programs = [
   },
 ];
 
-export const Projects = [
-  {
-    name: "Protfolio",
-    image: pi1,
-    content: "This is my personal-site",
-  },
-  {
-    name: "Gfinder",
-    image: pi2,
-    content: "work in progress :)",
-  },
-  {
-    name: "work in progress",
-    content: ". . . . . . .. . . .. ..",
-    image: pi3,
-  },
-];
 
 
 

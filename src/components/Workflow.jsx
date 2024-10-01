@@ -1,4 +1,4 @@
-import codeImg from "../assets/arch/Desktop.png";
+import codeImg from "../assets/arch/Des.png";
 import { Programs, } from "../constants";
 
 const Workflow = () => {
