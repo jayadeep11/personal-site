@@ -3,8 +3,8 @@ import logo from "./../assets/prop.jpg";
 
 const About = () => {
   return (
-    <div className="flex flex-col  justify-around items-center  border-b border-neutral-800 ">
-      <h2 className="text-center text-5xl lg:text-8xl font-bold mb-8  arch">
+    <div className="flex flex-col  justify-around items-center  border-b border-neutral-800 lg:min-h-[900px] px-6">
+      <h2 className="text-center text-5xl lg:text-8xl font-bold  arch">
         Jayadeep{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
           Bellamkonda
@@ -20,11 +20,11 @@ const About = () => {
           />
         </div>
 
-        <div className="flex flex-col gap-8 lg:gap-12 text-lg lg:text-5xl text-center lg:text-left text-neutral-500 lg:basis-1/2">
+        <div className="flex flex-col gap-8 lg:gap-16 text-lg group lg:text-6xl text-center lg:text-left  text-neutral-500 lg:basis-1/2">
           <p className="arch">
-            I'm an IT student at Gayatri Vidya Parishad College of Engineering.
+            I'm an IT <span className="group-hover:text-orange-600">Student</span> at Gayatri Vidya Parishad College of Engineering.
           </p>
-          <div className="flex flex-col gap-6 lg:gap-10 text-base lg:text-lg text-gray-500">
+          <div className="flex flex-col gap-6 lg:gap-10 text-base lg:text-xl text-gray-500">
             <p>
               My skills include proficiency in React.js and Tailwind CSS, enabling me to create modern, responsive web applications with ease.
             </p>

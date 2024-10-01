@@ -9,17 +9,17 @@ const Footer = () => {
         <div className="flex-grow flex justify-center items-center sm:px-10">
           <a
             href="mailto:jayadeep.bellamkonda@gmail.com"
-            className="group a lg:text-9xl sm:text-7xl  md:text-5xl text-6xl text-center lg:text-start font-medium"
+            className="group a lg:text-9xl sm:text-7xl text-neutral-500   md:text-5xl text-6xl text-center lg:text-start font-medium"
           >
-            <span className="">Let's Work</span> Together
+            Let's Work <span className="group-hover:text-orange-500">Together</span>
             <span>
-              <PiArrowSquareIn className="group-hover:scale-75  transition-all  inline text-white" />
+              <PiArrowSquareIn className="group-hover:scale-75 text-neutral-500 transition-all  inline" />
             </span>
           </a>
         </div>
 
         <div className="text-3xl">
-          <ul className="flex items-center text-gray-500 flex-col gap-5 flex-grow  ">
+          <ul className="flex items-center text-neutral-500 flex-col gap-5 flex-grow  ">
             {socials.map((item, index) => (
               <li key={index}>
                 <a href={item.href} className=" trans hover:text-orange-500">
