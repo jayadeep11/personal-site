@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex-grow flex justify-center items-center sm:px-10 transition-all duration-300">
           <a
             href="mailto:jayadeep.bellamkonda@gmail.com"
-            className="group a lg:text-[9rem] sm:text-7xl text-neutral-500   md:text-5xl text-6xl text-center lg:text-start font-medium"
+            className="group a lg:text-9xl sm:text-7xl text-neutral-500   md:text-5xl text-6xl text-center lg:text-start font-medium"
           >
             Let's Work <span className="group-hover:text-orange-500">Together</span>
             <span>
