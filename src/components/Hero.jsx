@@ -5,7 +5,7 @@ import { useState } from "react";
 const HeroSection = () => {
   const [hidden, setHidden] = useState(true);
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen px-6 lg:px-12">
+    <div className="relative flex flex-col items-center justify-center min-h-screen px-6  lg:px-12">
       <img
         src={logo}
         className="w-16 h-16 lg:w-20 lg:h-20 hidden max-[770px]:block absolute top-6 lg:top-10"
