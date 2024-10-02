@@ -8,8 +8,8 @@ import "./index.css";
 const App = () => {
   return (
     <>
-      <div className="hel w-full mx-auto sm:px-14  px-20 relative z-30 ">
-        <Navbar />
+      <Navbar />
+      <div className="hel w-full mx-auto px-10 relative z-30 ">
         <Hero />
         <About />
         <Workflow />
